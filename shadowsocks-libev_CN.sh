@@ -500,9 +500,7 @@ ss://${ssurl}
 ===============================================
 EOF
     echo -e "配置信息已备份在 /root/shadowsocks.txt 文件内"
-    echo ""
-    echo -e "搬瓦工中文网（https://www.banwagongzw.com）、VULTR中文网（https://www.vultrcn.com）"
-    echo -e "站内教程多多，欢迎访问！"
+    echo -e "感谢作者 uxh"
 }
 
 #功能部分一
@@ -591,7 +589,7 @@ if [ $EUID -eq 0 ]; then
     if check_release centos || check_release debian || check_release ubuntu; then
         clear
         echo "=================================="
-        echo " Shadowsocks 一键管理脚本（libev）"
+        echo " Shadowsocks libev 版"
         echo "=================================="
         echo " 1.安装 Shadowsocks 服务"
         echo " 2.卸载 Shadowsocks 服务"
