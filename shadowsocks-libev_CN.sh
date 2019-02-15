@@ -2,9 +2,8 @@
 PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin"
 export PATH
 
-#托管：https://github.com/uxh/shadowsocks_bash
-#作者：https://www.banwagongzw.com & https://www.vultrcn.com
-#致谢：https://teddysun.com
+#作者：uxh
+#致谢：http://lolpbe.cn
 
 #设置输出颜色
 red="\033[0;31m"
